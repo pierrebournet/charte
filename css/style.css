@@ -9,3 +9,8 @@ header {
 article {
     background-color: #FFFFFF;
 }
+
+
+article > div > * {
+    display: inline-block;
+}
