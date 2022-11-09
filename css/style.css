@@ -3,7 +3,11 @@ body {
 }
 
 header {
+    position : sticky;
+    top : 0;
+    z-index: 1;
     background-color: #FFFFFF;
+    box-shadow: 0 0 7px 0 #e2e5e7;
 }
 
 article {
