@@ -10,6 +10,8 @@ article {
     background-color: #FFFFFF;
     padding: 15px 15px 20px 15px;
     border-radius: 15px;
+    margin : 0 0 20px 0;
+    box-shadow: 0 5px 5px 5px #e2e5e7;
 }
 
 article > div > * {
