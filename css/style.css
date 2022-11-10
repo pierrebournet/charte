@@ -19,7 +19,30 @@ header {
 
 .row {
     padding: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
 }
+
+@media (min-width: 550px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+  }
+}
+a {
+    background-color: red;
+    color : white;
+    text-align: center;
+    padding : 5px;
+    margin: 0 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 150px;
+    height: 20px;
+    font-weight : bold;
+    font-size: 12px;
+}
+
 article {
     background-color: var(--color-bg-arti);
     padding: 15px 15px 20px 15px;
