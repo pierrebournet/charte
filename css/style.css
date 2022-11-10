@@ -1,21 +1,31 @@
+:root {
+    --color-bg-main : #F2F5F7;
+    --color-bg-arti : #FFFFFF;
+    --color-shadow  : #e2e5e7;
+}
+
+
 body {
-    background-color: #F2F5F7;
+    background-color: var(--color-bg-main);
 }
 
 header {
     position : sticky;
     top : 0;
     z-index: 1;
-    background-color: #FFFFFF;
-    box-shadow: 0 0 7px 0 #e2e5e7;
+    background-color: var(--color-bg-arti);
+    box-shadow: 0 0 7px 0 var(--color-shadow);
 }
 
+.row {
+    padding: 40px 0 0 0;
+}
 article {
-    background-color: #FFFFFF;
+    background-color: var(--color-bg-arti);
     padding: 15px 15px 20px 15px;
     border-radius: 15px;
     margin : 0 0 20px 0;
-    box-shadow: 0 5px 5px 5px #e2e5e7;
+    box-shadow: 0 5px 5px 5px var(--color-shadow);
 }
 
 summary > * {
