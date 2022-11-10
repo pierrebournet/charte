@@ -62,3 +62,7 @@ summary > * {
 ul {
     list-style: inside url("../images/bullet.png");
 }
+#random {
+    margin-left: calc(50% - 75px) ;
+
+}
